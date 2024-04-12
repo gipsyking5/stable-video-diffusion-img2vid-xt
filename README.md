@@ -78,7 +78,7 @@ The model should not be used in any way that violates Stability AI's [Acceptable
 
 ### Recommendations
 
-The model is intended for research purposes only.
+The model is intended for both non-commercial and commercial usage.
 
 ## How to Get Started with the Model
 
