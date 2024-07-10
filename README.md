@@ -1,8 +1,8 @@
 ---
 pipeline_tag: image-to-video
 license: other
-license_name: stable-video-diffusion-nc-community
-license_link: LICENSE
+license_name: stable-video-diffusion-community
+license_link: LICENSE.md
 ---
 
 # Stable Video Diffusion Image-to-Video Model Card
@@ -11,7 +11,7 @@ license_link: LICENSE
 ![row01](output_tile.gif)
 Stable Video Diffusion (SVD) Image-to-Video is a diffusion model that takes in a still image as a conditioning frame, and generates a video from it. 
 
-Please note: For commercial use, please refer to https://stability.ai/membership.
+Please note: For commercial use, please refer to https://stability.ai/license.
 
 ## Model Details
 
@@ -47,7 +47,7 @@ SVD-Image-to-Video is preferred by human voters in terms of video quality. For d
 
 ### Direct Use
 
-The model is intended for both non-commercial and commercial usage. You can use this model for non-commercial or research purposes under this [license](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt/blob/main/LICENSE). Possible research areas and tasks include
+The model is intended for both non-commercial and commercial usage. You can use this model for non-commercial or research purposes under this [license](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt/blob/main/LICENSE.md). Possible research areas and tasks include
 
 - Research on generative models.
 - Safe deployment of models which have the potential to generate harmful content.
@@ -55,7 +55,7 @@ The model is intended for both non-commercial and commercial usage. You can use 
 - Generation of artworks and use in design and other artistic processes.
 - Applications in educational or creative tools.
 
-For commercial use, please refer to https://stability.ai/membership.
+For commercial use, please refer to https://stability.ai/license.
 
 Excluded uses are described below.
 
