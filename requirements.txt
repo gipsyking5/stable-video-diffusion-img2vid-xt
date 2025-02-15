@@ -1,0 +1,10 @@
+diffusers
+torch
+torchvision
+torchaudio
+transformers
+xformers
+accelerate
+moviepy
+pillow
+runpod
