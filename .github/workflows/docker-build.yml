@@ -20,8 +20,8 @@ jobs:
         uses: docker/login-action@v2
         with:
           registry: ghcr.io
-          username: ${{ secrets.GITHUB_ACTOR }}
-          password: ${{ secrets.CONTAINER_REGISTRY_TOKEN1 }}  # ✅ Updated Secret Name
+          username: ${{ github.actor }}  # 🔥 Fix: Use github.actor for authentication
+          password: ${{ secrets.CONTAINER_REGISTRY_TOKEN1 }}  # ✅ Correct Secret Name
 
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v3
@@ -30,3 +30,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: ghcr.io/gipsyking5/stable-video-diffusion:latest
+
