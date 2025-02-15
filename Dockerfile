@@ -16,11 +16,12 @@ RUN pip3 install diffusers transformers accelerate scipy numpy pillow opencv-pyt
 # Clone the model
 RUN git clone https://huggingface.co/stabilityai/stable-video-diffusion-img2vid
 
-# Copy the API script
-COPY app.py .
+# Copy the API script (Now using handler.py instead of app.py)
+COPY handler.py .
 
 # Expose the API port
 EXPOSE 5000
 
 # Run the API
-CMD ["python3", "app.py"]
+CMD ["python3", "handler.py"]
+
